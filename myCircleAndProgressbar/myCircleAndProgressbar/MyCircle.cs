@@ -35,7 +35,8 @@ namespace myCircleAndProgressbar
 
         public MyCircle(MyCircle copyCircle):this()
         {
-
+            circleColor = copyCircle.CircleColor;
+            sb = new SolidBrush(circleColor);
             //toolTipStr = copyCircle.ToolTipStr;
 
             parentSize = copyCircle.ParentSize;
